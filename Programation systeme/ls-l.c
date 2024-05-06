@@ -10,10 +10,10 @@
 
 int main()
 {
-    char *anme = "simo";
+    char *name = "simo";
     DIR *dir = opendir(name);
     struct dirent *dirent;
-    struct stat db;
+    struct stat sb;
 
     if(dir == NULL)
     {
